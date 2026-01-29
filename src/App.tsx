@@ -1,11 +1,10 @@
 import "./App.css";
+import { Star } from "./components/shared/Star";
 
 function App() {
   return (
     <>
-      <div className="star">
-        <div className="circles"></div>
-      </div>
+      <Star bgColor='transparent' />
     </>
   );
 }

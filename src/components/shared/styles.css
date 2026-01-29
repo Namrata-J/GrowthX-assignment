@@ -1,0 +1,35 @@
+.star {
+  width: fit-content;
+}
+.circles {
+  width: 100px;
+  aspect-ratio: 1;
+  background: radial-gradient(
+      circle at 0% 0%,
+      black 49px,
+      rgba(234, 232, 232, 0.9) 49px,
+      rgba(234, 232, 232, 0.9) 50px,
+      transparent 50px
+    ),
+    radial-gradient(
+      circle at 0% 100%,
+      black 49px,
+      rgba(234, 232, 232, 0.9) 49px,
+      rgba(234, 232, 232, 0.9) 50px,
+      transparent 50px
+    ),
+    radial-gradient(
+      circle at 100% 0%,
+      black 49px,
+      rgba(234, 232, 232, 0.9) 49px,
+      rgba(234, 232, 232, 0.9) 50px,
+      transparent 50px
+    ),
+    radial-gradient(
+      circle at 100% 100%,
+      black 49px,
+      rgba(234, 232, 232, 0.9) 49px,
+      rgba(234, 232, 232, 0.9) 50px,
+      transparent 50px
+    );
+}
