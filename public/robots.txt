@@ -6,4 +6,4 @@ Allow: /
 Disallow: /*.map$
 
 # Sitemap location (update this URL to match your domain)
-# Sitemap: https://growthX-assignment.netlify.app
+# Sitemap: https://growthx-assignment-live.netlify.app
