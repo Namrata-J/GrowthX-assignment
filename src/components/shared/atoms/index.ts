@@ -1,0 +1,1 @@
+export { CurvedTriangle } from './triangle/CurvedTriangle';
