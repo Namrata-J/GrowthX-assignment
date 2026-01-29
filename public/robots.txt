@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Disallow build artifacts and source maps
+Disallow: /*.map$
+
+# Sitemap location (update this URL to match your domain)
+# Sitemap: https://growthX-assignment.netlify.app

@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="animation">
       <motion.div
+      className="animation__star"
         style={{ position: "relative" }}
         initial={{
           y: 100,
@@ -22,7 +23,7 @@ function App() {
         transition={{ duration: 1.5 }}
       >
         <motion.div
-          className="animation__star"
+          className="animation__star--wrapper"
           initial={{ opacity: 1 }}
           animate={{ opacity: [1, 0] }}
           transition={{ duration: 1, delay: 3 }}
